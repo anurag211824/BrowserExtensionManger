@@ -47,7 +47,7 @@ const ExtensionControls = () => {
         {filteredData.map((ext, index) => (
           <div className={`${
             theme === "dark" ? "text-neutral-300 bg-neutral-900" : "text-black"
-          } w-full shadow-lg rounded-lg p-4`} key={index}>
+          } w-full shadow-lg rounded-lg p- flex flex-col justify-between gap-5 p-5`} key={index}>
             <div className="flex flex-row gap-3">
               <img src={ext.logo} alt="" />
               <div>
