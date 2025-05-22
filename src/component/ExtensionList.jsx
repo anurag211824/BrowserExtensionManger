@@ -1,6 +1,6 @@
 import { useSelector } from "react-redux";
 import { useDispatch } from "react-redux";
-import { setFilter,removeExtension,toggleExtension } from "../store/ExtensionSlice";
+import { setFilter,removeExtension,toggleExtension } from "../redux/ExtensionSlice";
 const ExtensionControls = () => {
   const theme = useSelector((state) => state.theme);
   const allExtensions = useSelector((state) => state.extensions.allExtensions);

@@ -4,7 +4,7 @@ import sun from "/images/icon-sun.svg";
 import moon from "/images/icon-moon.svg";
 import { useSelector } from "react-redux";
 import { useDispatch } from "react-redux";
-import { toggleTheme } from "../store/ThemeSlice";
+import { toggleTheme } from "../redux/ThemeSlice";
 const Header = () => {
   const  theme  = useSelector((state) => state.theme);
   const dispatch = useDispatch()
