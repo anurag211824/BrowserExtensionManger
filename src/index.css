@@ -1,0 +1,22 @@
+@import "tailwindcss";
+.bg-light-gradient {
+  background: linear-gradient(180deg, #EBF2FC 0%, #EEF8F9 100%);
+}
+
+.bg-dark-gradient {
+  background: linear-gradient(180deg, #040918 0%, #091540 100%);
+}
+/* Neutral colors */
+.neutral-900 { color: hsl(227, 75%, 14%); }
+.neutral-800 { color: hsl(226, 25%, 17%); }
+.neutral-700 { color: hsl(225, 23%, 24%); }
+.neutral-600 { color: hsl(226, 11%, 37%); }
+.neutral-300 { color: hsl(0, 0%, 78%); }
+.neutral-200 { color: hsl(217, 61%, 90%); }
+.neutral-100 { color: hsl(0, 0%, 93%); }
+.neutral-0   { color: hsl(200, 60%, 99%); }
+
+/* Red colors */
+.red-400 { color: hsl(3, 86%, 64%); }
+.red-500 { color: hsl(3, 71%, 56%); }
+.red-700 { color: hsl(3, 77%, 44%); }
